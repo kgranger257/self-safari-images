@@ -19,7 +19,7 @@ const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>
 function pageHtml(c){
   // Quote font-size scales down for longer quotes so it always fits the bubble.
   const len = String(c.B).length;
-  const size = len > 150 ? 50 : len > 110 ? 58 : len > 75 ? 66 : 74;
+  const size = len > 170 ? 58 : len > 130 ? 66 : len > 95 ? 76 : len > 60 ? 86 : 96;
   return `<!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Lora:ital,wght@0,700;1,600&display=swap">
 <style>
@@ -28,8 +28,8 @@ function pageHtml(c){
    align-items:center;justify-content:space-between;padding:88px 84px;color:#fff;text-align:center;
    font-family:"Montserrat",sans-serif;box-sizing:border-box}
  .mark{font-weight:600;font-size:30px;letter-spacing:11px;text-transform:uppercase;color:rgba(255,255,255,.95)}
- .bubble{position:relative;background:#fff;border-radius:40px;width:100%;flex:1;margin:58px 0;
-   display:flex;align-items:center;justify-content:center;padding:66px 60px;box-sizing:border-box}
+ .bubble{position:relative;background:#fff;border-radius:40px;width:100%;flex:1;margin:46px 0;
+   display:flex;align-items:center;justify-content:center;padding:54px 50px;box-sizing:border-box}
  .bubble::after{content:"";position:absolute;left:17%;bottom:-34px;border-left:34px solid transparent;
    border-right:60px solid transparent;border-top:54px solid #fff}
  .quote{font-family:"Lora",serif;font-weight:700;color:#242424;font-size:${size}px;line-height:1.16;margin:0;letter-spacing:-.5px}
