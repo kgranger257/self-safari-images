@@ -1,0 +1,19 @@
+{
+  "_comment": "Quotes already used, to prevent repeats. The authoritative check is column B of Sheet2 (read it live); this file is a convenience mirror. Append every new quote here when you add cards.",
+  "quotes": [
+    "Between stimulus and response there is a space. In that space is our power to choose our response.",
+    "Knowing yourself is the beginning of all wisdom.",
+    "The curious paradox is that when I accept myself just as I am, then I can change.",
+    "The childhood shows the man, as morning shows the day.",
+    "In a very real sense we have two minds, one that thinks and one that feels.",
+    "Emotional intelligence is the single biggest predictor of performance in the workplace.",
+    "Inside every older person is a younger person wondering what happened.",
+    "We never really grow up, we only learn how to act in public.",
+    "Every man is a damn fool for at least five minutes every day; wisdom consists in not exceeding the limit.",
+    "Owning our story and loving ourselves through that process is the bravest thing we'll ever do.",
+    "Feelings are much like waves: we can't stop them from coming, but we can choose which to surf.",
+    "You don't have to attend every argument you're invited to.",
+    "It is easier to build strong children than to repair broken men.",
+    "Your children are not your children. They are the sons and daughters of Life's longing for itself."
+  ]
+}
